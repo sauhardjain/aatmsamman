@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  background-color: #dedede;
+  color: #ac7a33;
+}
+
+header {
+  height: 40vh;
+  width: 100%;
+  padding-top: 45px;
+  position: relative;
+}
+
+nav {
+  height: 45px;
+  width: 100%;
+  padding: 20px 20px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.color-change {
+  background-color: #eee;
+  height: 45px;
+}
+
+.logo {
+  width: 7.5%;
+  margin-left: 20px;
+}
+
+nav a.ord {
+  text-decoration: none;
+  font-size: 19px;
+  color: #ac7a33;
+  font-family: Playfair Display, sans-serif;
+  float: right;
+  position: relative;
+  top: 9px;
+  padding-right: 20px;
+  transition: all .3s ease;
+}
+
+nav a.ord:hover {
+  top: 5.7px;
+}
+
+#spec {
+  margin-right: 50px;
+}
+
+.text {
+  width: 90%;
+  margin: auto;
+}
+
+.text h1 {
+  font-size: 8vh;
+  font-family: Playfair Display, serif;
+  margin-top: 75px;
+  margin-bottom: -20px;
+  color: #ac7a33;
+  font-weight: lighter;
+  letter-spacing: -2px;
+}
+
+hr {
+  float: left;
+  width: 7%;
+  border: 2px solid #ac7a33;
+  height: 0.1px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: Nunito Sans, sans-serif;
+  color: #ac7a33;
+  width: 55%;
+  margin-top: -0.5%;
+}
+
+.container {
+  height: 89.75vh;
+}
+
+.a {
+  height: 90%;
+  width: 90%;
+  margin-bottom: 10%;
+  margin-top: -35px;
+  margin-left: 5%;
+  margin-right: 5%;
+  top: 0;
+  background-color: #eaeaea;
+  box-shadow: 5px 15px 15px rgba(200, 200, 200, 0.8);
+}
+
+div.card1 {
+  height: 350px;
+  width: 350px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: -35px;
+  background-image: url('card1.jpg');
+  overflow: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 15px 15px rgba(10, 10, 10, 0.2);
+  transition: all 0.3s ease;
+}
+
+div.card2 {
+  height: 350px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: -35px;
+  background-color: black;
+  display: inline-block;
+  background-image: url('card2.jpg');
+  overflow: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 15px 15px rgba(10, 10, 10, 0.2);
+  transition: all 0.3s ease;
+}
+
+div.card3 {
+  height: 350px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: -35px;
+  background-color: black;
+  display: inline-block;
+  background-image: url('card3.jpg');
+  overflow: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 15px 15px rgba(10, 10, 10, 0.2);
+  transition: all 0.3s ease;
+}
+
+a.card {
+  color: #dedede;
+  font-family: Nunito Sans, serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.card:hover div.card1 {
+  box-shadow: 15px 20px 15px rgba(10, 10, 10, 0.3);
+  transition: all 0.3s ease;
+}
+
+a.card:hover div.card2 {
+  box-shadow: 15px 20px 15px rgba(10, 10, 10, 0.3);
+  transition: all 0.3s ease;
+}
+
+a.card:hover div.card3 {
+  box-shadow: 15px 20px 15px rgba(10, 10, 10, 0.3);
+  transition: all 0.3s ease;
+}
+
+h3 {
+  color: #050505;
+  font-size: 85px;
+  font-family: Playfair Display, serif;
+  color: inherit;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 55px;
+}
+
+h2 {
+  font-family: Lato, sans-serif;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 43%;
+}
+
+.parallax1 {
+  height: 300px;
+  background-image: url('head1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: none;
+}
+
+.parallax2 {
+  height: 300px;
+  background-image: url('head1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: none;
+}
+
+div center {
+  color: #fff;
+  font-size: 40px;
+  padding-top: 120px;
+  font-family: Raleway, sans-serif;
+}
+
+.parallax2 i {
+  font-size: 25px;
+  float: right;
+  margin-right: 225px;
+  margin-top: 25px;
+}
+
+h4 {
+  font-size: 95px;
+  font-family: Raleway;
+  color: #020202;
+  display: inline-block;
+}
+
+h4 strong {
+  font-size: 125px;
+}
+
+.container1 {
+  height: 100vh;
+  width: 90vw;
+  margin: auto;
+}
+
+.container1 h1 {
+  font-size: 8vh;
+  font-family: League Spartan, serif;
+  margin-top: 40px;
+  margin-bottom: -20px;
+  color: #ac7a33;
+  font-weight: lighter;
+  letter-spacing: -2px;
+}
+
+.container1 hr {
+  margin-top: 30px;
+}
+
+.offset {
+  height: 65px;
+  position: relative;
+  top: 65px;
+  visibility: hidden;
+}
+
+.offset3 {
+  visibility: hidden;
+  height: 65px;
+  position: relative;
+  top: 50px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Lato:300|Nunito+Sans|Playfair+Display&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<title>AatmSamman</title>
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+
+<body>
+	<header id="initial">
+
+		<nav>
+			<a class="main" href="#initial"><img class="logo" src="logo.png"></a>
+			<a class="ord" id="spec" href="#sec2">The Team</a>
+			<a class="ord" href="#sec">The Mission</a>
+		</nav>
+
+		<div class="text">
+
+			<h1>a social initiative</h1>
+			<br>
+			<hr>
+			<br><br><br>
+			<p><i>
+					Aiming emancipation of as many people as possible from impoverished lifestyle, we organise little camps providing basic relief materials to the abundant underprivileged people to help them sustain life. We provide them with such materials
+					at
+					a subsidised rates to instil in them a sense of self esteem (AatmSamman) since they are not getting it for free.
+				</i></p>
+
+		</div>
+
+	</header>
+	<div class="container">
+		<div class="a">
+
+			<h3>Upcoming Camps</h3>
+
+			<a class="card">
+				<div class="card1">
+					<h2>Diwali Camp</h2>
+				</div>
+			</a>
+
+			<a class="card">
+				<div class="card2">
+					<h2>Winter Drive</h2>
+				</div>
+			</a>
+
+			<a class="card">
+				<div class="card3">
+					<h2>Christmas Relief</h2>
+				</div>
+			</a>
+
+		</div>
+	</div>
+
+	<div class="parallax1">
+		<center>Started by 2 <strong>high-schoolers</strong> in a bid to give back to their community.</center>
+		<div class="offset" id="sec"></div>
+	</div>
+
+	<div class="container1" id="pack">
+
+		<h1>an open source</h1>
+		<br><br><br>
+		<p><i>
+				It shall serve as a means for individuals, governments and other business and non-governmental organisations
+				to help address the grievances of those who are often ignored, left uncared for and need a little help
+				to spring from their desolate conditions to decent lifestyles.
+			</i></p>
+
+		<div class="rightdiv">
+			<h1>the mission</h1>
+			<br><br><br>
+			<p><i>
+					We intend to save the humanity from the stigma associated with poverty created by humanity itself,
+					prevalent across the globe, nucleated in India. This is social initiative initiated to help as many
+					individuals as possible to enjoy the sense of self esteem and further protect their identity
+					in the society.
+				</i></p>
+		</div>
+
+		<h1>surplus to deficit</h1>
+		<br><br><br>
+		<p><i>
+				Learning basic economic concepts in high school years, AatmSamman is the practical application
+				of it. We gather all kinds of basic amenities (used/extra) including clothes, food etc. from
+				those who don’t need them anymore and provide them to those whose lives can be saved from the same.
+			</i></p>
+
+
+	</div>
+
+	<div class="parallax2">
+		<center>"Lorem ipsum dolor sit amet, consectetur adipisicing elit"</center>
+
+		<div class="offset3" id="sec2"></div>
+
+	</div>
+
+	<div class="container">
+	</div>
+
+	<script>
+		$(window).scroll(function() {
+			if ($(document).scrollTop() > 50) {
+				$("nav").addClass("color-change");
+			} else {
+				$("nav").removeClass("color-change");
+			}
+		});
+		$(document).ready(function() {
+			$("a").on('click', function(event) {
+
+				if (this.hash !== "") {
+
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 750, function() {
+
+						window.location.hash = hash;
+					});
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
