@@ -5,7 +5,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Lato:300|Nunito+Sans|Playfair+Display&display=swap" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AatmSamman</title>
 
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -13,64 +13,73 @@
 </head>
 
 <body>
-	<header id="initial">
 
-		<nav>
-			<a class="main" href="#initial"><img class="logo" src="logo.png"></a>
-			<a class="ord" id="spec" href="#sec2">The Team</a>
-			<a class="ord" href="#sec">The Mission</a>
-		</nav>
+	<nav>
+		<a class="main" href="#initial"><img class="logo" src="logo.png"></a>
+		<a class="ord" id="spec" href="#sec3">The Team</a>
+		<a class="ord" href="#sec2">The Mission</a>
+	</nav>
+
+	<header id="initial">
 
 		<div class="text">
 
 			<h1>a social initiative</h1>
 			<br>
 			<hr>
-			<br><br><br>
+			<br><br>
 			<p><i>
 					Aiming emancipation of as many people as possible from impoverished lifestyle, we organise little camps providing basic relief materials to the abundant underprivileged people to help them sustain life. We provide them with such materials
-					at
-					a subsidised rates to instil in them a sense of self esteem (AatmSamman) since they are not getting it for free.
+					at subsidised rates to instil in them a sense of self esteem (AatmSamman) since they are not getting it for free.
 				</i></p>
 
 		</div>
 
 	</header>
+
 	<div class="container">
-		<div class="a">
-
-			<h3>Upcoming Camps</h3>
-
-			<a class="card">
-				<div class="card1">
-					<h2>Diwali Camp</h2>
+		<ul class="cards">
+			<li class="cards_item">
+				<div class="card">
+					<div class="card_image"><img src="card1.jpg"></div>
+					<div class="card_content">
+						<h2 class="card_title">Winter Drive (Nov'18)</h2>
+						<p class="card_text">Relief offered at the onset of Winter 2018. Mobile drives held across rural areas near Civil Lines.</p>
+						<button class="btn card_btn" id="myBtn">Gallery</button>
+					</div>
 				</div>
-			</a>
-
-			<a class="card">
-				<div class="card2">
-					<h2>Winter Drive</h2>
+			</li>
+			<li class="cards_item">
+				<div class="card">
+					<div class="card_image"><img src="card2.jpg"></div>
+					<div class="card_content">
+						<h2 class="card_title">Summer Drive (July'19)</h2>
+						<p class="card_text">Drives held across Naharpur Slums in Rohini, New Delhi.</p>
+						<button class="btn card_btn" id="myBtn2">Gallery</button>
+					</div>
 				</div>
-			</a>
-
-			<a class="card">
-				<div class="card3">
-					<h2>Christmas Relief</h2>
+			</li>
+			<li class="cards_item">
+				<div class="card">
+					<div class="card_image"><img src="card3.jpg"></div>
+					<div class="card_content">
+						<h2 class="card_title">Fall Drive (Oct'19)</h2>
+						<p class="card_text">Largest distribution effor undertaken by us. Items were distributed across the Kashmere Gate area.</p>
+						<button class="btn card_btn" id="myBtn3">Gallery</button>
+					</div>
 				</div>
-			</a>
-
-		</div>
+			</li>
 	</div>
 
 	<div class="parallax1">
 		<center>Started by 2 <strong>high-schoolers</strong> in a bid to give back to their community.</center>
-		<div class="offset" id="sec"></div>
+		<div class="offset" id="sec2"></div>
 	</div>
 
 	<div class="container1" id="pack">
 
 		<h1>an open source</h1>
-		<br><br><br>
+		<br>
 		<p><i>
 				It shall serve as a means for individuals, governments and other business and non-governmental organisations
 				to help address the grievances of those who are often ignored, left uncared for and need a little help
@@ -79,7 +88,7 @@
 
 		<div class="rightdiv">
 			<h1>the mission</h1>
-			<br><br><br>
+			<br>
 			<p><i>
 					We intend to save the humanity from the stigma associated with poverty created by humanity itself,
 					prevalent across the globe, nucleated in India. This is social initiative initiated to help as many
@@ -89,7 +98,7 @@
 		</div>
 
 		<h1>surplus to deficit</h1>
-		<br><br><br>
+		<br>
 		<p><i>
 				Learning basic economic concepts in high school years, AatmSamman is the practical application
 				of it. We gather all kinds of basic amenities (used/extra) including clothes, food etc. from
@@ -100,13 +109,60 @@
 	</div>
 
 	<div class="parallax2">
-		<center>"Lorem ipsum dolor sit amet, consectetur adipisicing elit"</center>
-
-		<div class="offset3" id="sec2"></div>
-
+		<center>Dignifying the act of receiving, while creating a meaningful model of charity.</center>
+		<div class="offset" id="sec3"></div>
 	</div>
 
-	<div class="container">
+	<div class="container2">
+		<center>
+			<h1>Founders</h1>
+		</center>
+		<ul class="cards2">
+			<li class="cards_item2">
+				<div class="card2">
+					<div class="card_content" id="con">
+						<center>
+							<h2 class="card_title">Akshat Goel</h2>
+							<p class="card_text">The co-founder of the initiative, Akshat Goel studies in class 12 at Delhi Public School Mathura Road, New Delhi. He aims to be a social entrepreneur who wishes the well being of everyone, everytime. It was him
+								along with the other co-founder who gathered the the team and made everyone understand the power of working for the benefit of others. He quotes, “The joy of it is your actual remuneration.”
+							</p>
+							<button class="btn card_btn">Contact</button>
+						</center>
+					</div>
+				</div>
+			</li>
+			<li class="cards_item2">
+				<div class="card2">
+					<div class="card_content" id="con">
+						<center>
+							<h2 class="card_title">Sauhard Jain</h2>
+							<p class="card_text">The co-founder of this initiative, Sauhard Jain studies in class 11 at Delhi Public School Mathura Road, New Delhi. He can be found designing beautiful stuff or debating at various events, but his real passion lies
+								in uplifting others around him and helping out his local community. He aims to channel this passion through AatmSamman and hopes to spread the benefits of this initiative to his community.
+							</p>
+							<button class="btn card_btn">Contact</button>
+						</center>
+					</div>
+				</div>
+			</li>
+	</div>
+
+	<div id="myModal" class="modal">
+
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h1>Gallery</h1>
+			</div>
+			<div class="modal-body">
+				<br>
+				<div class="para">
+				<img src="1.jpg"><img src="2.jpg"><img src="3.jpg"><img src="4.jpg"><img src="5.jpg">
+				<img src="6.jpg"><img src="7.jpg"><img src="8.jpg"><img src="9.jpg"><img src="10.jpg">
+				<img src="11.jpg"><img src="12.jpg"><img src="13.jpg"><img src="14.jpg"><img src="15.jpg">
+				</div>
+		</div>
+	</div>
+
 	</div>
 
 	<script>
@@ -135,6 +191,34 @@
 				}
 			});
 		});
+
+		var modal = document.getElementById("myModal");
+
+		var btn = document.getElementById("myBtn");
+		var btn2 = document.getElementById("myBtn2");
+		var btn3 = document.getElementById("myBtn3");
+
+		var span = document.getElementsByClassName("close")[0];
+
+		btn.onclick = function() {
+			modal.style.display = "block";
+		}
+		btn2.onclick = function() {
+			modal.style.display = "block";
+		}
+		btn3.onclick = function() {
+			modal.style.display = "block";
+		}
+
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
 	</script>
 </body>
 
