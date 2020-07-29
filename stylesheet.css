@@ -129,6 +129,7 @@ img {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -203,7 +204,7 @@ h3 {
 
 .parallax1 {
   height: 30vh;
-  background-image: url('head1.jpg');
+  background-image: url('img/head1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: none;
@@ -211,7 +212,7 @@ h3 {
 
 .parallax2 {
   height: 30vh;
-  background-image: url('head1.jpg');
+  background-image: url('img/head1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: none;
